@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "@babel/preset-react",
+    ["@babel/preset-env", {
+      "targets": {
+        "browsers": [
+          "last 4 chrome versions",
+          "last 4 firefox versions",
+          "last 1 Edge version"
+        ]
+      }
+    }]
+  ]
+}
